@@ -4,9 +4,9 @@ export default function Footer() {
   return (
     <>
       <div className="bg-[#2c3e50] text-white p-8">
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center text-center">
 
-          <div className="md:w-1/3 p-3">
+          <div className="md:w-1/3 md:p-3">
             <div className="flex justify-center px-20 py-10 items-center flex-col">
               <h3 className="text-2xl font-bold">LOCATION</h3>
               <p className="mt-2">2215 John Daniel Drive</p>
@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="md:w-1/3 p-3">
+          <div className="md:w-1/3 md:p-3">
             <div className="flex justify-center px-20 py-10 items-center flex-col">
               <h3 className="text-2xl font-bold">AROUND THE WEB</h3>
               <div className="flex mt-2">
@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="md:w-1/3 p-3">
+          <div className="md:w-1/3 md:p-3">
             <div className="flex justify-center px-20 py-10 items-center flex-col">
               <h3 className="text-2xl font-bold">ABOUT FREELANCER</h3>
               <p className="my-4 text-sm text-center">Freelance is a free to use, licensed Bootstrap theme created by Route</p>

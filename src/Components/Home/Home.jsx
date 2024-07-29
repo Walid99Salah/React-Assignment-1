@@ -4,9 +4,9 @@ import pic from "../../assets/images/jarji5l9.png";
 export default function Home() {
   return (
     <>
-      <div className="h-screen text-gray-100 flex justify-center items-center flex-col bg-[#1abc9c]">
+      <div className="h-screen text-gray-50 flex justify-center items-center flex-col bg-[#1abc9c]">
         <img className="w-64" src={pic} alt="homeImage" />
-        <h1 className="text-5xl font-bold mt-6">start Framework</h1>
+        <h1 className="md:text-5xl text-3xl font-bold mt-6 uppercase">start Framework</h1>
         <div className="flex">
           <div className="w-20 bg-white h-1 mt-6 me-5"></div>
           <i className="fa-solid fa-star mt-4"></i>

@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <div className="h-screen text-gray-100 flex justify-center items-center flex-col bg-[#1abc9c]">
-        <h1 className="text-4xl uppercase font-bold mt-6">about component</h1>
+        <h1 className="text-2xl md:text-4xl uppercase font-bold mt-6">about component</h1>
         <div className="flex">
           <div className="w-20 bg-white h-[4px] mt-6 me-4"></div>
           <i className="fa-solid fa-star mt-4"></i>

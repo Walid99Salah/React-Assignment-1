@@ -5,11 +5,11 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-[#2c3e50] md:fixed w-full z-10">
-        <div className="h-10 text-white py-12 sm:px-24 lg:px-44 flex justify-between items-center">
+        <div className=" text-white md:py-8 py-4 sm:px-24 px-3 flex-col md:flex-row lg:px-44 flex justify-between items-center">
           <Link to="">
-            <h1 className="font-bold text-3xl sm:me-5 md:m-0">START FRAMEWORK</h1>
+            <h1 className="font-bold text-lg md:text-3xl sm:me-5 md:m-0">START FRAMEWORK</h1>
           </Link>
-          <ul className="uppercase text-lg font-medium flex md:space-x-6 sm:space-x-4">
+          <ul className="uppercase text-sm flex-col md:flex-row md:text-lg font-medium flex md:space-x-6 sm:space-x-4">
             <NavLink to="about" className="rounded-md p-1">
               about
             </NavLink>

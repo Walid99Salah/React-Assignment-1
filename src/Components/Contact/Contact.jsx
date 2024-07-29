@@ -13,7 +13,7 @@ export default function Contact() {
             <i className="fa-solid fa-star mt-4"></i>
             <div className="w-20 bg-[#2c3e50] h-[3px] mt-6 ms-4"></div>
           </div>
-          <div className="w-[55%]">
+          <div className="md:w-[55%] w-full">
             <div className="mt-20">
               <input type="text" className="bg-white px-2 border-b-2 w-full text-sm rounded-md placeholder:text-gray-500 py-2" placeholder="userName"/>
             </div>
